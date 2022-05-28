@@ -1,0 +1,89 @@
+*{
+  font-size: large;
+  color: white
+}
+html, body {
+  margin: 0px;
+  height: 100%; 
+  /* The margin and height have to be set for the body in order make the div height 100% and fill the screen*/
+}
+#main{
+  height: 100%;
+  position: relative;
+  border: solid black;
+  background-image: url(./background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#name{
+  justify-content: center;
+  border: solid;
+}
+#top-half {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0;
+ 
+}
+#bottom-half{
+  justify-content: center;
+  border: solid red;
+  height: 50%;
+  width:100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+
+}
+img {
+  height: 300px;
+}
+div{
+  border: dotted
+}
+.small-pictures{
+  position: sticky;
+  margin-left: 2%;
+  margin-bottom: 0%;
+  border: solid blue;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  bottom:0%;
+}
+  .photo-labels {
+    position: absolute;
+    height: 33%;
+    width: 100%;
+    border: solid green;
+    bottom: 0;
+    opacity: 98%;
+  }
+
+#pic1{
+  background-image: url(about.jpg);
+  
+}#pic2{
+  background-image: url(contact.jpeg);
+}#pic3{
+  background-image: url(portfolio.png);
+}
+#label3 {
+  background-color: rgb(0, 58,96);
+  }
+#label2 {
+  background-color: rgb(209, 132,16);
+  }
+#label1 {
+  background-color: rgb(65, 124, 12);
+  }
+  .overlay {
+    border: solid;
+    background-color: rgb(21, 36, 47);
+    height: 100%;
+    opacity: 90%;
+  }
+    
+      
