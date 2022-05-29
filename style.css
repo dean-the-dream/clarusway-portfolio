@@ -7,10 +7,11 @@ html, body {
 #main{
   height: 100%;
   position: relative;
-  border: solid black;
+  /* border: solid black; */
   background-image: url(./background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
 
 }
 h1, h2{ 
@@ -37,7 +38,7 @@ h2 {
 }
 #myname, #title {
   margin: auto;
-  border: solid yellow;
+  /* border: solid yellow; */
 }
 
 
@@ -47,26 +48,27 @@ h2 {
 }
 
 #bottom-half{
+  position: absolute; 
   justify-content: center;
-  border: solid red;
+  /* border: solid red; */
   height: 50%;
-  width:100%;
-  position: absolute;
+  width:80%;
   bottom: 0;
   display: flex;
+  margin: auto;
+  left: 0;
+  right: 0;
 
 }
 img {
   height: 300px;
 }
-div{
-  border: dotted
-}
+
 .small-pictures{
   position: relative;
   margin-left: 2%;
   margin-bottom: 0%;
-  border: solid blue;
+  /* border: solid blue; */
   height: 300px;
   width: 300px;
   background-size: cover;
@@ -75,8 +77,8 @@ div{
   .photo-labels {
     position: absolute;
     height: 33%;
-    width: 100%;
-    border: solid green;
+    width:100%;
+    /* border: solid green; */
     bottom: 0;
     opacity: 98%;
   }
