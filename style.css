@@ -23,14 +23,15 @@ h1, h2{
   
 }
 h3 {
-  text-align:center;
+  text-align: center;
+  margin: 0, auto;
 }
 h2 {
   color: rgb(56, 109, 130)
 }
 #top-half {
   position: absolute;
-  height: 50%;
+  height: 60%;
   width: 100%;
   top: 0;
   
@@ -51,7 +52,7 @@ h2 {
   position: absolute; 
   justify-content: center;
   /* border: solid red; */
-  height: 50%;
+  height: 60%;
   width:80%;
   bottom: 0;
   display: flex;
@@ -76,11 +77,12 @@ img {
 }
   .photo-labels {
     position: absolute;
-    height: 33%;
+    height: 20%;
     width:100%;
     /* border: solid green; */
     bottom: 0;
     opacity: 98%;
+    margin: 0 auto;
   }
 
 #pic1{
@@ -100,11 +102,25 @@ img {
 #label1 {
   background-color: rgb(65, 124, 12);
   }
-  .overlay {
-    border: solid;
+  #main .overlay { 
     background-color: rgb(21, 36, 47);
     height: 100%;
     opacity: 80%;
+  }
+  #pic1 .overlay { 
+    background-color: rgb(65, 124, 12);
+    height: 100%;
+    opacity: 60%;
+  }
+  #pic2 .overlay { 
+    background-color: rgb(209, 132,16);
+    height: 100%;
+    opacity: 60%;
+  }
+  #pic3 .overlay { 
+    background-color: rgb(0, 58,96);
+    height: 100%;
+    opacity: 60%;
   }
     
       
