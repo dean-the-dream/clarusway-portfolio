@@ -1,10 +1,7 @@
-*{
-  font-size: 200px;
-  color: white
-}
 html, body {
   margin: 0px;
   height: 100%; 
+  color: white
   /* The margin and height have to be set for the body in order make the div height 100% and fill the screen*/
 }
 #main{
@@ -16,17 +13,39 @@ html, body {
   background-size: cover;
 
 }
-#name{
-  justify-content: center;
-  border: solid;
+h1, h2{ 
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  
+  
+  
+}
+h3 {
+  text-align:center;
+}
+h2 {
+  color: rgb(56, 109, 130)
 }
 #top-half {
   position: absolute;
   height: 50%;
   width: 100%;
   top: 0;
+  
  
 }
+#myname, #title {
+  margin: auto;
+  border: solid yellow;
+}
+
+
+#name{
+  justify-content: center;
+  border: solid;
+}
+
 #bottom-half{
   justify-content: center;
   border: solid red;
@@ -44,7 +63,7 @@ div{
   border: dotted
 }
 .small-pictures{
-  position: sticky;
+  position: relative;
   margin-left: 2%;
   margin-bottom: 0%;
   border: solid blue;
@@ -83,7 +102,7 @@ div{
     border: solid;
     background-color: rgb(21, 36, 47);
     height: 100%;
-    opacity: 90%;
+    opacity: 80%;
   }
     
       
