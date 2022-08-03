@@ -125,5 +125,14 @@ img {
     height: 100%;
     opacity: 60%;
   }
+  #pic1 .overlay:hover{
+    opacity: 0;
+  }
+  #pic2 .overlay:hover{
+    opacity: 0;
+  }
+  #pic3 .overlay:hover{
+    opacity: 0;
+  }
     
       
