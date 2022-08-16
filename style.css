@@ -1,138 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-html, body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
-  margin: 0px;
-  height: 100%; 
-  color: white
-  /* The margin and height have to be set for the body in order make the div height 100% and fill the screen*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh; 
+    color: white;    
+    background-image: url(./background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 #main{
-  height: 100%;
-  position: relative;
-  /* border: solid black; */
-  background-image: url(./background2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
+    height: 100%;
+    position: relative;
+    /* border: solid black; */
+
+    margin: 0 auto;
 
 }
 h1, h2{ 
-  font-size: 50px;
-  color: white;
-  text-align: center;
-  
-  
-  
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+    
+    
 }
 h3 {
-  text-align: center;
-  margin: 0, auto;
+    text-align: center;
+    margin: 0, auto;
 }
 h2 {
-  color: rgb(56, 109, 130)
+    color: rgb(56, 109, 130)
 }
 #top-half {
-  position: absolute;
-  height: 60%;
-  width: 100%;
-  top: 0;
-  
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 0;
+    
  
 }
 #myname, #title {
-  margin: auto;
-  /* border: solid yellow; */
+    margin: auto;
+    /* border: solid yellow; */
 }
 
 
 #name{
-  justify-content: center;
-  border: solid;
+    justify-content: center;
+    border: solid;
 }
 
 #bottom-half{
-  position: absolute; 
-  justify-content: center;
-  /* border: solid red; */
-  height: 60%;
-  width:80%;
-  bottom: 0;
-  display: flex;
-  margin: auto;
-  left: 0;
-  right: 0;
+    position: absolute; 
+    justify-content: center;
+    /* border: solid red; */
+    height: 60%;
+    width:80%;
+    bottom: 0;
+    display: flex;
+    margin: auto;
+    left: 0;
+    right: 0;
 
 }
 img {
-  height: 300px;
+    height: 300px;
 }
 
 .small-pictures{
-  position: relative;
-  margin-left: 2%;
-  margin-bottom: 0%;
-  /* border: solid blue; */
-  height: 300px;
-  width: 300px;
-  background-size: cover;
-  bottom:0%;
+    position: relative;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    /* border: solid blue; */
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    bottom:0%;
 }
-  .photo-labels {
-    position: absolute;
-    height: 20%;
-    width:100%;
-    /* border: solid green; */
-    bottom: 0;
-    opacity: 98%;
-    margin: 0 auto;
-  }
+    .photo-labels {
+        position: absolute;
+        height: 20%;
+        width:100%;
+        /* border: solid green; */
+        bottom: 0;
+        opacity: 98%;
+        margin: 0 auto;
+    }
 
 #pic1 {
-  background-image: url("https://picsum.photos/id/684/600/400");
-  
+    background-image: url("https://picsum.photos/id/684/600/400");
+    
 }#pic2{
-  background-image: url(contact.jpeg);
+    background-image: url(contact.jpeg);
 }#pic3{
-  background-image: url(portfolio.png);
+    background-image: url(portfolio.png);
 }
 #label3 {
-  background-color: rgb(0, 58,96);
-  }
-#label2 {
-  background-color: rgb(209, 132,16);
-  }
-#label1 {
-  background-color: rgb(65, 124, 12);
-  }
-  #main .overlay { 
-    background-color: rgb(21, 36, 47);
-    height: 100%;
-    opacity: 80%;
-  }
-  #pic1 .overlay { 
-    background-color: rgb(65, 124, 12);
-    height: 100%;
-    opacity: 60%;
-  }
-  #pic2 .overlay { 
-    background-color: rgb(209, 132,16);
-    height: 100%;
-    opacity: 60%;
-  }
-  #pic3 .overlay { 
     background-color: rgb(0, 58,96);
-    height: 100%;
-    opacity: 60%;
-  }
-  #pic1 .overlay:hover{
-    opacity: 0;
-  }
-  #pic2 .overlay:hover{
-    opacity: 0;
-  }
-  #pic3 .overlay:hover{
-    opacity: 0;
-  }
-    
-      
+    }
+#label2 {
+    background-color: rgb(209, 132,16);
+    }
+#label1 {
+    background-color: rgb(65, 124, 12);
+    }
+    main div.overlay { 
+        background-color: rgb(21, 36, 47);
+        height: 100%;
+        opacity: 80%;
+    }
+    #pic1 .overlay { 
+        background-color: rgb(65, 124, 12);
+        height: 100%;
+        opacity: 60%;
+    }
+    #pic2 .overlay { 
+        background-color: rgb(209, 132,16);
+        height: 100%;
+        opacity: 60%;
+    }
+    #pic3 .overlay { 
+        background-color: rgb(0, 58,96);
+        height: 100%;
+        opacity: 60%;
+    }
+    #pic1 .overlay:hover{
+        opacity: 0;
+    }
+    #pic2 .overlay:hover{
+        opacity: 0;
+    }
+    #pic3 .overlay:hover{
+        opacity: 0;
+    }
+        
+            
