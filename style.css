@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+	
 }
 
 body {
@@ -14,44 +15,36 @@ body {
     color: white;    
     background-image: url(./background2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;   
 }
 
-#main{
+main {
     height: 100%;
     position: relative;
-    /* border: solid black; */
-
     margin: 0 auto;
+}
 
-}
-h1, h2{ 
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    
-    
-    
-}
-h3 {
-    text-align: center;
-    margin: 0, auto;
-}
-h2 {
-    color: rgb(56, 109, 130)
-}
 #top-half {
     position: absolute;
     height: 60%;
     width: 100%;
-    top: 0;
-    
- 
+    top: 0; 
 }
-#myname, #title {
-    margin: auto;
-    /* border: solid yellow; */
+
+h1, h2{ 
+    font-size: 50px;
+    text-align: center;
+	margin: auto;   
+}
+
+
+h2 {
+    color: rgb(56, 109, 130)
+}
+
+h3 {
+    text-align: center;
+    margin: 0, auto;
 }
 
 
@@ -87,6 +80,7 @@ img {
     background-size: cover;
     bottom:0%;
 }
+
     .photo-labels {
         position: absolute;
         height: 20%;
@@ -114,7 +108,7 @@ img {
 #label1 {
     background-color: rgb(65, 124, 12);
     }
-    main div.overlay { 
+    main  div { 
         background-color: rgb(21, 36, 47);
         height: 100%;
         opacity: 80%;
