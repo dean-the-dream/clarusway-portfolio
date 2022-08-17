@@ -95,7 +95,7 @@ main #pic3 {
 	opacity: 60%;
 }
 
-main div.overlay:hover {
+a:hover {
 	opacity: 0;
 }
 
