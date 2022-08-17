@@ -4,8 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
-	
+    box-sizing:border-box;	
 }
 
 body {
@@ -15,54 +14,38 @@ body {
     color: white;    
     background-image: url(./background2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;   
-}
-
-main {
+    background-size: cover;  
     height: 100vh;
     position: relative;
-    margin: 0 auto;
-	
+    margin: 0 auto; 
 }
-main div.overlay {
+
+#screen-overlay {
     background-color: rgb(21, 36, 47);
 	opacity: 80%;
     height: 100%;
 }
 
-#top-half {
+header {
     position: absolute;
     height: 60%;
     width: 100%;
     top: 0; 
 }
 
-h1, h2{ 
+h1, h2 { 
     font-size: 50px;
     text-align: center;
 	margin: auto;   
 }
 
-
 h2 {
     color: rgb(56, 109, 130)
 }
 
-h3 {
-    text-align: center;
-    margin: 0, auto;
-}
-
-
-#name{
-    justify-content: center;
-    border: solid;
-}
-
-#bottom-half{
+main {
     position: absolute; 
     justify-content: center;
-    /* border: solid red; */
     height: 60%;
     width:80%;
     bottom: 0;
@@ -70,21 +53,50 @@ h3 {
     margin: auto;
     left: 0;
     right: 0;
-
 }
-img {
-    height: 300px;
+
+main #pic1 {
+    background-image: url("https://picsum.photos/id/684/600/400");
+}
+
+main #pic2 {
+    background-image: url("./contact.jpeg");
+}
+
+main #pic3 {
+    background-image: url("./portfolio.png");
 }
 
 .small-pictures{
     position: relative;
     margin-left: 2%;
     margin-bottom: 0%;
-    /* border: solid blue; */
     height: 300px;
     width: 300px;
     background-size: cover;
     bottom:0%;
+}
+
+#pic1 a div { 
+	background-color: rgb(65, 124, 12);
+	height: 100%;
+	opacity: 60%;
+}
+
+#pic2 a div { 
+	background-color: rgb(209, 132,16);
+	height: 100%;
+	opacity: 60%;
+}
+
+#pic3 a div { 
+	background-color: rgb(0, 58,96);
+	height: 100%;
+	opacity: 60%;
+}
+
+main div.overlay:hover {
+	opacity: 0;
 }
 
 .photo-labels {
@@ -96,57 +108,19 @@ img {
 	margin: 0 auto;
 }
 
-label {
-	position: absolute;
-	height: 20%;
-	width:100%;
-	bottom: 0;
-	opacity: 98%;
-	margin: 0 auto;
-}
-
-#pic1 {
-    background-image: url("https://picsum.photos/id/684/600/400");
-    
-}#pic2{
-    background-image: url(contact.jpeg);
-}#pic3{
-    background-image: url(portfolio.png);
-}
 #label3 {
     background-color: rgb(0, 58,96);
-    }
+}
+
 #label2 {
     background-color: rgb(209, 132,16);
-    }
+}
+
 #label1 {
     background-color: rgb(65, 124, 12);
-    }
-
-#pic1 .overlay { 
-	background-color: rgb(65, 124, 12);
-	height: 100%;
-	opacity: 60%;
-}
-#pic2 .overlay { 
-	background-color: rgb(209, 132,16);
-	height: 100%;
-	opacity: 60%;
-}
-#pic3 .overlay { 
-	background-color: rgb(0, 58,96);
-	height: 100%;
-	opacity: 60%;
 }
 
-
-#pic1 .overlay:hover{
-	opacity: 0;
+h3 {
+    text-align: center;
+    margin: 1rem auto;
 }
-#pic2 .overlay:hover{
-	opacity: 0;
-}
-#pic3 .overlay:hover{
-	opacity: 0;
-}
-
